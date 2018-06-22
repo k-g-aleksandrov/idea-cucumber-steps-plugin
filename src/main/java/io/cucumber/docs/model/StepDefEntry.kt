@@ -7,4 +7,6 @@ data class StepDefEntry(
         val params: List<String>,
         val file: String,
         val module: String
-)
+) {
+    override fun toString() = regex
+}
