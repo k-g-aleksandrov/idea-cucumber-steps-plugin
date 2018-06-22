@@ -1,0 +1,17 @@
+<idea-plugin>
+    <id>io.cucumber.docs.idea-cucumber-docs-plugin</id>
+    <name>Cucumber Steps Reference</name>
+    <vendor email="k.g.aleksandrov@gmail.com">Kirill Aleksandrov</vendor>
+
+    <description>TODO: add description</description>
+
+    <depends>gherkin</depends>
+    <depends>cucumber-java</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <toolWindow anchor="right"
+                    factoryClass="io.cucumber.docs.StepDefsDocsToolWindowFactory"
+                    id="Steps Reference"
+                    icon="CucumberDocsPluginIcons.STEPS_REFERENCE"/>
+    </extensions>
+</idea-plugin>
